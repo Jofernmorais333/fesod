@@ -52,7 +52,7 @@
         <gpg.skip>true</gpg.skip>
         <maven.javadoc.skip>true</maven.javadoc.skip>
         <maven.test.skip>true</maven.test.skip>
-        <commons-csv.version>1.11.0</commons-csv.version>
+        <commons-csv.version>1.14.1</commons-csv.version>
         <poi.version>5.4.1</poi.version>
         <ehcache.version>3.9.11</ehcache.version>
         <commons-io.version>2.16.1</commons-io.version>
@@ -70,9 +70,9 @@
         <junit.version>5.13.4</junit.version>
         <mockito.version>4.11.0</mockito.version>
         <surefire.jvm.args>-Xmx2g -Xms2g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8</surefire.jvm.args>
-        <surefire.jdk9plus.args></surefire.jdk9plus.args>
+        <surefire.jdk9plus.args/>
         <jazzer.junit.version>0.25.1</jazzer.junit.version>
-        <argLine></argLine>
+        <argLine/>
     </properties>
 
     <scm>
