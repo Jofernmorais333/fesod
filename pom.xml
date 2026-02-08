@@ -55,7 +55,7 @@
         <commons-csv.version>1.11.0</commons-csv.version>
         <poi.version>5.4.1</poi.version>
         <ehcache.version>3.9.11</ehcache.version>
-        <commons-io.version>2.16.1</commons-io.version>
+        <commons-io.version>2.21.0</commons-io.version>
         <slf4j-api.version>1.7.36</slf4j-api.version>
         <lombok.version>1.18.42</lombok.version>
         <spring-core.version>5.3.39</spring-core.version>
@@ -70,9 +70,9 @@
         <junit.version>5.13.4</junit.version>
         <mockito.version>4.11.0</mockito.version>
         <surefire.jvm.args>-Xmx2g -Xms2g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8</surefire.jvm.args>
-        <surefire.jdk9plus.args></surefire.jdk9plus.args>
+        <surefire.jdk9plus.args/>
         <jazzer.junit.version>0.25.1</jazzer.junit.version>
-        <argLine></argLine>
+        <argLine/>
     </properties>
 
     <scm>
